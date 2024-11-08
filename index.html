@@ -9,20 +9,25 @@
 <body>
     <header class="mother">
         <h1>Calculadora IMC</h1>
+
         <section class="input_ab">
-            <div>
-                <label for="">Nome:</label> <input type="text" placeholder="Seu nome aqui" id="nome-text">
+            <div class="label_input">
+                <label>Nome:</label> <input type="text" placeholder="Seu nome aqui" id="nome-text">
             </div>
-            <div>
-                <label for="">Altura:</label> 
+
+            <div class="label_input">
+                <label>Altura:</label> 
                 <input type="text" placeholder="Ex: 1,50" id="a-text">
             </div>
-            <div>
-                <label for="">Peso:</label> 
+
+            <div class="label_input">
+                <label>Peso:</label> 
                 <input type="text" placeholder="Ex: 59 ou 59,60" id="p-text">
             </div>
-            <button onclick="calcular()">Calcular</button>
         </section>
+        
+        <button onclick="calcular()">Calcular</button>
+        
         <span class="texto">
             <p>Calculando...</p>
         </span>
