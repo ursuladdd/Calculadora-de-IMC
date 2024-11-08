@@ -18,9 +18,31 @@ body {
     background-color: rgb(255, 197, 52);
     padding: 20px 30px 20px 30px;
     gap: 2.5rem;
+    border-radius: 5px;
 }
 
 .input_ab {
     display: flex;
     flex-direction: column;
+    gap: 1.5rem;
+}
+
+input {
+    border: none;
+    width: 9rem;
+    height: 1.8rem;
+}
+
+section > p {
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.texto {
+    background-color: rgb(28, 25, 25);
+    padding: 20px;
+    border-radius: 8px;
 }
