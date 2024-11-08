@@ -17,6 +17,14 @@ body {
     align-items: center;
     background-color: rgb(255, 197, 52);
     justify-content: space-evenly;
-    padding: 20px 30px 20px 30px;
     border-radius: 5px;
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px 0 20px;
+    border-bottom: solid 5px black;
+
+}
+
