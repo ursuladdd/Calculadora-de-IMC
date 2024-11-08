@@ -12,10 +12,16 @@ body {
 }
 
 .mother {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(255, 197, 52);
+    padding: 25px
 }
 
 .input_ab {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+
+
 }
