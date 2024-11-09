@@ -28,3 +28,31 @@ h1 {
 
 }
 
+.label_input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+input {
+    border: none;
+    width: 7.5rem;
+    height: 1.8rem;
+    border-radius: 3px;
+}
+
+label {
+    margin-right: 20px;
+    font-weight: 900;
+}
+
+button {
+    border: none;
+    width: 11rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(255, 248, 196);
+}
