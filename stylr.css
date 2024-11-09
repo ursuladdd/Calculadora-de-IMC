@@ -18,6 +18,7 @@ body {
     background-color: rgb(255, 197, 52);
     justify-content: space-evenly;
     border-radius: 5px;
+    box-shadow: 2px 2px 20px black;
 }
 
 h1 {
