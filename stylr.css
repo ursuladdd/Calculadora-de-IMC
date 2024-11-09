@@ -55,4 +55,23 @@ button {
     border-radius: 5px;
     background-color: black;
     color: rgb(255, 248, 196);
+    margin-bottom: 2.5rem;
+    cursor: pointer;
+}
+
+.texto {
+    background-color: black;
+    color: rgb(255, 248, 196);
+    width: 14rem;
+    height: 5.5rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+ p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    
 }
