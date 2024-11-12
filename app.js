@@ -6,4 +6,8 @@ function calcular() {
     let altura = parseFloat(alturaStr);
     let peso = parseFloat(pesoStr);
 
+    let massaCorporal = peso / (altura * altura);
+    let imcFormatado = massaCorporal.toFixed(2);
+    console.log("O IMC de " + nome + " é: " + imcFormatado);
+
 }
