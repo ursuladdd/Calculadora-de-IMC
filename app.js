@@ -2,7 +2,8 @@ function calcular() {
     let nome = document.getElementById('nome-text').value;
     let alturaStr = document.getElementById('a-text').value;
     let pesoStr = document.getElementById('p-text').value;
-  
+    let text = document.getElementById('text');
+
     let altura = parseFloat(alturaStr);
     let peso = parseFloat(pesoStr);
 
@@ -10,9 +11,10 @@ function calcular() {
     let imcFormatado = massaCorporal.toFixed(2);
     
     if (massaCorporal <= 18.5) {
-        alert('Você está a baixo do indice');
+        text.innerHTML = `O seu imc é ${imcFormatado} é está abaixo`
+
     } else if (massaCorporal > 18.5) {
-        alert('Você está a no peso adequado do indice')
+        text.innerHTML = `O seu imc é ${imcFormatado} é está no peso adequado`
     }
 
 }
