@@ -4,8 +4,15 @@ function calcular() {
     let pesoStr = document.getElementById('p-text').value;
     let text = document.getElementById('text');
 
+    
+
     let altura = parseFloat(alturaStr);
     let peso = parseFloat(pesoStr);
+
+    if (isNaN(altura) || peso <= 0) {
+        alert("Por favor, insira valores numéricos válidos para altura e peso.")
+        return
+      }
 
     let massaCorporal = peso / (altura * altura);
     let imcFormatado = massaCorporal.toFixed(2);
@@ -23,6 +30,5 @@ function calcular() {
          text.innerHTML = `${nome} O seu imc é ${imcFormatado} é está abaixo`
     }
 
-
-
 }
+
