@@ -8,6 +8,11 @@ function calcular() {
 
     let massaCorporal = peso / (altura * altura);
     let imcFormatado = massaCorporal.toFixed(2);
-    console.log("O IMC de " + nome + " é: " + imcFormatado);
+    
+    if (massaCorporal <= 18.5) {
+        alert('Você está a baixo do indice');
+    } else if (massaCorporal > 18.5) {
+        alert('Você está a no peso adequado do indice')
+    }
 
 }
