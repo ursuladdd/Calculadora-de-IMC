@@ -1,11 +1,9 @@
 function calcular() {
     let nome = document.getElementById('nome-text').value;
-    let altura = document.getElementById('a-text').value;
-    let alturaFloat = parseFloat(altura.value.replace(',', '.'));
-    let peso = parseFloat(document.getElementById('"p-tex').value);
+    let alturaStr = document.getElementById('a-text').value;
+    let pesoStr = document.getElementById('p-text').value;
+  
+    let altura = parseFloat(alturaStr);
+    let peso = parseFloat(pesoStr);
 
-    alert(nome);
-    alert(altura);
-    alert(alturaFloat);
-    alert(peso);
 }
