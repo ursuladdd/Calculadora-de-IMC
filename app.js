@@ -10,11 +10,19 @@ function calcular() {
     let massaCorporal = peso / (altura * altura);
     let imcFormatado = massaCorporal.toFixed(2);
     
-    if (massaCorporal <= 18.5) {
-        text.innerHTML = `O seu imc é ${imcFormatado} é está abaixo`
+    if ( massaCorporal >= 30) {
+        text.innerHTML = ` ${nome} O seu imc é ${imcFormatado} é está no Obesidade 1 `
+        
+    } else if ( massaCorporal >= 25 || massaCorporal >= 29.9 ) {
+         text.innerHTML = ` ${nome} O seu imc é ${imcFormatado} é está sobrepesso`
 
-    } else if (massaCorporal > 18.5) {
-        text.innerHTML = `O seu imc é ${imcFormatado} é está no peso adequado`
+    }else if (massaCorporal >= 18.6) {
+            text.innerHTML = ` ${nome} O seu imc é ${imcFormatado} é está no peso normal`
+     
+    } else {
+         text.innerHTML = `${nome} O seu imc é ${imcFormatado} é está abaixo`
     }
+
+
 
 }
