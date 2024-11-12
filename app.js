@@ -1,3 +1,5 @@
+Limpar();
+
 function calcular() {
     let nome = document.getElementById('nome-text').value;
     let alturaStr = document.getElementById('a-text').value;
@@ -32,3 +34,10 @@ function calcular() {
 
 }
 
+function Limpar() {
+    document.getElementById('nome-text').value = '';
+    document.getElementById('a-text').value = '';
+    document.getElementById("p-text").value = '';
+    document.getElementById('text').innerHTML = "Calculando...";
+  
+  }
