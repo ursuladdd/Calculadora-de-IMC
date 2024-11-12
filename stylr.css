@@ -38,6 +38,7 @@ h1 {
 }
 
 input {
+    text-align: center;
     border: none;
     width: 7.5rem;
     height: 1.8rem;
